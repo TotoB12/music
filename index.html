@@ -23,9 +23,9 @@
 
 	<!-- tells google that this url is most important (e.g. not http (without s = secure))-->
 	<link rel="canonical" href="https://ytify.netlify.app/">
-	<link rel="icon" href="assets/maskable_icon_x512.png" type="image/png" alt="Main image" sizes="512x512" />
-	<link rel="icon" href="assets/maskable_icon_x192.png" type="image/png" alt="Main image" sizes="192x192" />
-	<link rel="apple-touch-icon" href="assets/maskable_icon_x192.png" type="image/png" alt="Main image" sizes="192x192">
+	<link rel="icon" href="https://raw.githubusercontent.com/TotoB12/totob12.github.io/main/things/favicon.ico" type="image/png" alt="Main image" sizes="512x512" />
+	<link rel="icon" href="https://raw.githubusercontent.com/TotoB12/totob12.github.io/main/things/favicon.ico" type="image/png" alt="Main image" sizes="192x192" />
+	<link rel="apple-touch-icon" href="https://raw.githubusercontent.com/TotoB12/totob12.github.io/main/things/favicon.ico" type="image/png" alt="Main image" sizes="192x192">
 	<link rel="manifest" href="manifest.webmanifest" />
 
 	<link defer rel="stylesheet" href="src/stylesheets/main.css">
@@ -57,11 +57,11 @@
 		<img id="img" height="100%" width="100%" crossorigin="anonymous" alt="current playing media thumbnail">
 
 		<div id="metadata" align="center">
-			<a id="title" target="_blank">ytify v5.16</a>
+			<a id="title" target="_blank">TotoB12 Music</a>
 			<br>
-			<a id="author" target="_blank">Channel</a>
+			<a id="author" target="_blank">Blazing</a>
 			<select id="bitrateSelector">
-				<option value="">Bitrate</option>
+				<option value="">Fast</option>
 			</select>
 			<select id="subtitleSelector" class="hide"></select>
 			<br><br>
@@ -79,6 +79,7 @@
 		</div>
 		<div id="queuelist" align="left">
 			<h1>Upcoming streams on your queue or autoplay show up here.</h1>
+			<h1>Tap the "Queue" button to turn on the queue.</h1>
 		</div>
 
 	</div>
@@ -89,12 +90,12 @@
 			<select id="searchFilters">
 				<optgroup label="YouTube">
 					<option value="all">All</option>
-					<option value="videos" selected>Videos</option>
+					<option value="videos">Videos</option>
 					<option value="channels">Channels</option>
 					<option value="playlists">Playlists</option>
 				</optgroup>
 				<optgroup label="YouTube Music">
-					<option value="music_songs">Songs</option>
+					<option value="music_songs" selected>Songs</option>
 					<option value="music_videos">Videos</option>
 					<option value="music_albums">Albums</option>
 					<option value="music_playlists">Playlists</option>
